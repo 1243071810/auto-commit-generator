@@ -33,6 +33,25 @@ gac
 ~/.claude/scripts/gac.bat
 ```
 
+# 方式 1: 直接运行
+  node "B:/54148test/auto-commit-generator/auto-commit.mjs"
+
+  # 方式 2: 使用快捷命令 (Git Bash)
+  gac
+
+  # 方式 3: 使用批处理 (PowerShell)
+  ~/bin/gac.bat
+
+  后续版本控制
+
+  cd B:/54148test/auto-commit-generator
+
+  # 查看状态
+  git status
+
+  # 提交更改
+  git add .
+  git commit -m "你的提交信息"
 ### 创建全局快捷命令
 
 #### 方法 1: 添加到 PATH (推荐)
